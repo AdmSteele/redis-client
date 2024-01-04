@@ -15,7 +15,7 @@ gem "toxiproxy"
 group :benchmark do
   gem "benchmark-ips"
   gem "hiredis"
-  gem "redis", "~> 4.6"
+  gem "redis", "~> 4.7.1"
   gem "stackprof", platform: :mri
 end
 
